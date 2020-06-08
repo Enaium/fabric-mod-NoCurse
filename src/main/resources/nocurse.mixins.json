@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.enaium.nocurse.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "VanishingCurseEnchantmentMixin",
+    "BindingCurseEnchantmentMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

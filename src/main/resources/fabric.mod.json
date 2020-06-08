@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "nocurse",
+  "version": "${version}",
+
+  "name": "NoCurse",
+  "description": "There will be no curse enchantment!",
+  "authors": [
+    "Enaium"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Enaium-FabricMC/NoCurse",
+    "sources": "https://github.com/Enaium-FabricMC/NoCurse",
+    "issues": "https://github.com/Enaium-FabricMC/NoCurse/issues"
+  },
+
+  "license": "MIT",
+  "icon": "assets/nocurse/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cn.enaium.nocurse.NoCurse"
+    ]
+  },
+  "mixins": [
+    "nocurse.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.8.7",
+    "fabric": "*",
+    "minecraft": "1.14.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
